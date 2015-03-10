@@ -1,14 +1,27 @@
 <head>
-  <title>party-planner</title>
+  <title>Party Planner</title>
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <header>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
 
-  {{> hello}}
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-menu">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><i class="fa fa-glass"></i> Party Planner</a>
+        </div>
+
+        <!-- <div class="collapse navbar-collapse" id="top-menu"> -->
+        <!--   <ul class="nav navbar-nav navbar-right"> -->
+        <!--   </ul> -->
+        <!-- </div> -->
+      </div>
+    </nav>
+  </header>
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-</template>
