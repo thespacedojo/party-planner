@@ -1,4 +1,5 @@
 <template name="myEvents">
+{{#if loggedIn}}
 <h2>Events</h2>
 <ul>
 {{#each myEvents}}
@@ -18,4 +19,7 @@
     </div>
   </form>
 </div>
+{{else}}
+<p>Please sign-up or register.</p>
+{{/if}}
 </template>
