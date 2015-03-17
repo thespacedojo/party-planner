@@ -2,7 +2,7 @@
 <h2>Events</h2>
 <ul>
 {{#each myEvents}}
-  <li>{{name}}</li>
+  <li><a href="{{pathFor route='events.show'}}">{{name}}</a></li>
 {{/each}}
 </ul>
 </template>
