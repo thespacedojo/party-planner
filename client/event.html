@@ -1,6 +1,12 @@
 <template name="eventShow">
   <h1>{{event.name}}</h1>
 
+  <h3>Invited</h3>
+  <ul>
+    {{#each event.emails}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
   <div class="addEvent">
     <h2>Invite someone</h2>
     <form>
