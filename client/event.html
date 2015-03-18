@@ -1,3 +1,16 @@
 <template name="eventShow">
   <h1>{{event.name}}</h1>
+
+  <div class="addEvent">
+    <h2>Invite someone</h2>
+    <form>
+      <div class="form-group">
+        <label for="emailAddress">Email Address</label>
+        <input type="email" id="emailAddress" />
+      </div>
+      <div class="form-group">
+        <input class="btn btn-default" type="submit" value="Invite them!" />
+      </div>
+    </form>
+  </div>
 </template>

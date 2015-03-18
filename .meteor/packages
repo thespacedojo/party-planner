@@ -4,7 +4,6 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
 insecure
 twbs:bootstrap
 fortawesome:fontawesome
@@ -12,3 +11,4 @@ ian:accounts-ui-bootstrap-3
 accounts-facebook
 iron:router
 pfafman:coffee-alerts
+email
